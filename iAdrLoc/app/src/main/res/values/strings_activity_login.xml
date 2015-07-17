@@ -1,0 +1,9 @@
+<resources>
+    <string name="title_activity_login">iSyslc</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_username">User Name</string>
+
+    <string name="action_install">Install</string>
+
+</resources>
