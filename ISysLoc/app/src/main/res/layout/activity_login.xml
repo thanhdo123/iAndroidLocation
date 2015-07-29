@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+android:layout_height="match_parent" android:gravity="center_horizontal"
+android:orientation="vertical"
+tools:context="com.example.bootstart.LoginActivity">
+
+<ScrollView android:id="@+id/login_form" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <EditText android:id="@+id/txtUserName" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:hint="User Name 3"
+            android:inputType="text" android:maxLines="1"
+            android:singleLine="true" />
+        <EditText
+            android:id="@+id/txtPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:text=""
+            android:password="true"/>
+        <Button android:id="@+id/sign_in_button" style="?android:textAppearanceSmall"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_marginTop="16dp" android:text="Install"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</ScrollView>
+
+</LinearLayout>
+
